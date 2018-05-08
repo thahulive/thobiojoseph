@@ -1,0 +1,248 @@
+a, a:visited, a:hover, a:active {
+  color: #e73c3c;
+  text-decoration: none;
+}
+
+p {
+  font-family: Avenir-Medium;
+  font-size: 18px;
+  color: rgb(100,100,100);
+  margin-top: 10px;
+}
+
+time {
+  font-family: Avenir-Heavy;
+  color: #e73c3c;
+  font-size: 20px;
+}
+
+strong {
+  font-family: Avenir-Black;
+  font-size: 20px;
+}
+
+html {
+  overflow:-x: hidden;
+  width: 100%;
+}
+
+.banner {
+  background-image: initial;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  height: 950px;
+  background-position: center;
+}
+
+.banner h1 {
+  font-family: Avenir-Book;
+  font-size: 140px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.banner h2 {
+  text-align: center;
+  color: #fff;
+  font-family: Menlo;
+  font-size: 50px;
+}
+
+.first-name {
+  color: rgb(231, 60, 60);
+}
+
+.last-name {
+  color: #fff;
+}
+
+.portfolio h1 {
+  font-family: Avenir-Heavy;
+  font-size: 54px;
+  color: #e73c3c;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.left-portfolio {
+  margin-top: 100px;
+}
+
+.app-icon {
+  width: 90px;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.portfolio h2 {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(100, 100,100);
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio h3 {
+  font-family: Avenir-Heavy;
+  font-size: 26px;
+  color: #e73c3c;
+  margin-top: 50px;
+}
+
+.app-store-button {
+  background-image: url(../img/app-store-badge.png);
+  background-size: 100%;
+  border: none;
+  width: 150px;
+  height: 44px;
+  margin-top: 50px;
+  margin-right: 40px;
+  display:inline;
+}
+
+.app-store-button:hover,
+.app-store-button:active,
+.app-store-button:focus {
+  background-image: url(../img/app-store-badge.png);
+  background-position: 0 0;
+  outline: none !important;
+}
+
+.more-screens-btn {
+  width: 150px;
+  height: 44px;
+  margin-top: 50px;
+  border-radius: 8px;
+  border: 2px solid #e73c3c;
+  font-family: Avenir-Heavy;
+  font-size: 15px;
+  color: #e73c3c;
+  background-color: transparent;
+  background-image: initial;
+  text-shadow: initial;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.more-screens-btn:hover {
+  border: 2px solid #e73c3c;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #e73c3c;
+  background-image: initial;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.more-screens-btn:active,
+.more-screens-btn:focus {
+  outline: none !important;
+  border: 2px solid #e73c3c !important;
+  color: #ffffff !important;
+  background-color: #e73c3c !important;
+}
+
+.portfolio-row {
+  margin-top: 200px;
+}
+
+.fitbanner-disclaimer {
+  color: #4aa6a0;
+  font-style: italic;
+}
+
+.footer {
+  background-image: url(../img/footer-background-dull.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 150px;
+}
+
+.footer-image {
+  background-image: url(../img/footer-pic.png);
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.contact-icons {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-icons img {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer p {
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.footer-info {
+  background-color: rgba(0,0,0, 0.6);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1199px) {
+  .banner {
+    height: 800px;
+  }
+
+  .banner h1 {
+    font-size: 120px;
+    margin-top: 250px;
+  }
+
+  .banner h2 {
+    font-size: 46px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .banner {
+    height: 1024px;
+  }
+
+  .banner h1 {
+    font-size: 100px;
+    margin-top: 250px;
+  }
+
+  .banner h2 {
+    font-size: 40px;
+  }
+
+  .phone {
+    margin-bottom: 0px;
+  }
+
+  .blog-row {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: 700px;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+    margin-top: 250px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+  }
+
+}
