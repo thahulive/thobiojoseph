@@ -1,3 +1,18 @@
+/*  DODGER BLUE
+    19B5FE
+    25, 181, 254
+ */
+.dodger-blue {
+  color: rgb(25, 181, 254);
+}
+
+.carrara {
+  color: rgb(242, 241, 239);
+}
+
+.white-smoke {
+  color: rgb(236,236,236);
+}
 a, a:visited, a:hover, a:active {
   color: #e73c3c;
   text-decoration: none;
@@ -27,11 +42,14 @@ html {
 }
 
 .banner {
+  min-height: 100vh;
   background-image: initial;
-  background: url(../img/banner.jpg) no-repeat;
+  background: url(../img/banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 950px;
-  background-position: center;
+
 }
 
 .banner h1 {
@@ -43,23 +61,13 @@ html {
 
 .banner h2 {
   text-align: center;
-  color: #fff;
   font-family: Menlo;
   font-size: 50px;
-}
-
-.first-name {
-  color: rgb(231, 60, 60);
-}
-
-.last-name {
-  color: #fff;
 }
 
 .portfolio h1 {
   font-family: Avenir-Heavy;
   font-size: 54px;
-  color: #e73c3c;
   text-align: center;
   margin-top: 200px;
 }
@@ -77,7 +85,6 @@ html {
 .portfolio h2 {
   font-family: Avenir-Roman;
   font-size: 50px;
-  color: rgb(100, 100,100);
   display: inline;
   margin-left: 30px;
   vertical-align: middle;
@@ -86,7 +93,6 @@ html {
 .portfolio h3 {
   font-family: Avenir-Heavy;
   font-size: 26px;
-  color: #e73c3c;
   margin-top: 50px;
 }
 
@@ -107,38 +113,6 @@ html {
   background-image: url(../img/app-store-badge.png);
   background-position: 0 0;
   outline: none !important;
-}
-
-.more-screens-btn {
-  width: 150px;
-  height: 44px;
-  margin-top: 50px;
-  border-radius: 8px;
-  border: 2px solid #e73c3c;
-  font-family: Avenir-Heavy;
-  font-size: 15px;
-  color: #e73c3c;
-  background-color: transparent;
-  background-image: initial;
-  text-shadow: initial;
-  transition: background-color 0.2s ease-out, color 0.2s ease-out;
-}
-
-.more-screens-btn:hover {
-  border: 2px solid #e73c3c;
-  font-size: 15px;
-  color: #ffffff;
-  background-color: #e73c3c;
-  background-image: initial;
-  transition: background-color 0.2s ease-in, color 0.2s ease-in;
-}
-
-.more-screens-btn:active,
-.more-screens-btn:focus {
-  outline: none !important;
-  border: 2px solid #e73c3c !important;
-  color: #ffffff !important;
-  background-color: #e73c3c !important;
 }
 
 .portfolio-row {
@@ -194,7 +168,7 @@ html {
 
 @media (max-width: 1199px) {
   .banner {
-    height: 800px;
+    min-height: 100vh;
   }
 
   .banner h1 {
@@ -210,7 +184,7 @@ html {
 
 @media (max-width: 991px) {
   .banner {
-    height: 1024px;
+    min-height: 100vh;
   }
 
   .banner h1 {
@@ -233,7 +207,7 @@ html {
 
 @media (max-width: 767px) {
   .banner {
-    height: 700px;
+    min-height: 100vh;
   }
 
   .banner h1 {
